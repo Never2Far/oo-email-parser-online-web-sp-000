@@ -7,7 +7,7 @@ def initialize(list)
 end
 
 def parse
-
+  @email_list.scan(/\w+[@]\w+[.]\w+/)
 end
 
 
